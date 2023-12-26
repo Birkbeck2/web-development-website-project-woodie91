@@ -1,4 +1,4 @@
-  .nav ul{
+  .nav ul {
     width: 100%;
     padding-left: 30px;
     padding-right: 10px;
@@ -7,6 +7,13 @@
   
   .logo {
     display: inline-block;
+  }
+
+  body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'League Spartan', sans-serif;
   }
   
   .nav-links {
@@ -20,3 +27,9 @@
     color: black;
   }
   
+#social {
+    height: 30px;
+    width: 30px;
+    display: inline-flex;
+}
+
