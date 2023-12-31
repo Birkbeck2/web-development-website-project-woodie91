@@ -51,8 +51,13 @@
 #social {
     height: 30px;
     width: 30px;
-    display: inline-flex;
+    display: flex;
+    margin-left: 1rem;
     
+}
+
+#trademark {
+ margin-left: auto; 
 }
 
 /* styling for form on contact page */
@@ -66,7 +71,7 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-  }
+}
   
   input[type=submit] {
     background-color: #10714d;
