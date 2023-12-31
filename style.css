@@ -3,10 +3,13 @@
     padding-left: 30px;
     padding-right: 10px;
     display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .logo {
-    display: inline-block;
+    display: flex;
+    
   }
 
   body {
@@ -14,6 +17,8 @@
     margin-left: auto;
     margin-right: auto;
     font-family: 'League Spartan', sans-serif;
+    align-items: center;
+    justify-content: center;
   }
   
   .nav-links {
@@ -27,11 +32,20 @@
     text-decoration: none;
     color: black;
   }
+
+  img {
+    max-width: 100%;
+  }
+
+  @media screen and (min-widtth: 800px) {
+    INSERT BITS HERE!
+  }
   
 #social {
     height: 30px;
     width: 30px;
     display: inline-flex;
+    
 }
 
 /* styling for form on contact page */
