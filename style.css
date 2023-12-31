@@ -1,3 +1,5 @@
+  
+  /* styling for the navigation and unordered list elements to center them on the page and create space between links. nav-links removes the bullet point from the text within the list and places 10% padding between links. nav-page/a has .... logo has a flex display applied to it so that... */
   .nav ul {
     width: 100%;
     padding-left: 30px;
@@ -6,21 +8,7 @@
     align-items: center;
     justify-content: center;
   }
-  
-  .logo {
-    display: flex;
-    
-  }
 
-  body {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'League Spartan', sans-serif;
-    align-items: center;
-    justify-content: center;
-  }
-  
   .nav-links {
     list-style: none;
     padding: 10%;
@@ -32,15 +20,34 @@
     text-decoration: none;
     color: black;
   }
+  
+  .logo {
+    display: flex;
+    margin-right: 1rem;    
+  }
+
+/* styling for main content on page, this places the items within this element in the .. of the page, this also defines the font used on the page */
+
+  body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'League Spartan', sans-serif;
+    align-items: center;
+    justify-content: center;
+  }
+  
+ /* the following has been used to ensure the images and pages are responsive for various screen displays */
 
   img {
     max-width: 100%;
   }
 
   @media screen and (min-widtth: 800px) {
-    INSERT BITS HERE!
+    /*INSERT BITS HERE! */
   }
   
+  /* styling for the social media links within the footer, I have maniplutated the size of the images and am displaying them in an inline flex so that they are all in a row next to eachother */
 #social {
     height: 30px;
     width: 30px;
