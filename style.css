@@ -86,3 +86,12 @@ input[type=text], select, textarea {
     border-radius: 5px;
     padding: 100px;
   }
+
+  /*Styling for Asia page, flexbox*/
+
+  .flex1 img {
+    
+      width: 32%;
+      height: auto;
+      padding: 3px;
+  }
