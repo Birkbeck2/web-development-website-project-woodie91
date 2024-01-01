@@ -33,10 +33,9 @@ body {
     font-family: 'League Spartan', sans-serif;
   }
 
- .logo {
-  justify-content: center;
- }
-
+  p {
+    padding: 50px;
+  }
  
  /* the following has been used to ensure the images and pages are responsive for various screen displays */
 
@@ -53,13 +52,14 @@ body {
     height: 30px;
     width: 30px;
     display: flex;
-    margin-left: 1rem;
-    
+    padding: 50px;
 }
 
 #trademark {
- margin-left: auto; 
+  justify-content: center;
+  align-items: center;
 }
+
 
 /* styling for form on contact page */
 
@@ -85,7 +85,7 @@ input[type=text], select, textarea {
 
   .form {
     border-radius: 5px;
-    padding: 100px;
+    padding: 50px;
   }
 
   /*Styling for Index page, flexbox*/
