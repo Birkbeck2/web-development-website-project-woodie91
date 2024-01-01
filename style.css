@@ -11,7 +11,8 @@
 
   .nav-links {
     list-style: none;
-    padding: 10%;
+    align-items: center;
+    justify-content: center;
   }
   
   .nav-page a {
@@ -22,21 +23,22 @@
   }
   
   .logo {
-    display: flex;
-    margin-right: 1rem;    
+    align-items: center;
+    justify-content: center;
+    
   }
 
 /* styling for main content on page, this places the items within this element in the .. of the page, this also defines the font used on the page */
 
-  body {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+body {
     font-family: 'League Spartan', sans-serif;
-    align-items: center;
-    justify-content: center;
   }
-  
+
+ .logo {
+  justify-content: center;
+ }
+
+ 
  /* the following has been used to ensure the images and pages are responsive for various screen displays */
 
   img {
@@ -87,6 +89,29 @@ input[type=text], select, textarea {
     padding: 100px;
   }
 
+  /*Styling for Index page, flexbox*/
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 10px 
+}
+
+.flex-item {
+  flex-basis: 100px;
+  padding: 10px;
+  align-items: left;
+}
+
+.flex-item2 {
+  flex-basis: 100px;
+  font-size: 15px;
+  padding: 10px;
+  align-items: right;
+}
+
   /*Styling for Asia page, flexbox*/
 
   .flex1 img {
@@ -94,4 +119,11 @@ input[type=text], select, textarea {
       width: 32%;
       height: auto;
       padding: 3px;
+  }
+
+   /* to make the images responsive for different viewports */
+  @media only screen and (max-width:600px) {
+    .flex1 img{
+      flex-direction: column;
+    }
   }

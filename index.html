@@ -19,12 +19,12 @@
 <!--Main body of page-->
 <body>
     <header>
+
+      <img id="logo" src="/Images/logo text.png" alt="" width="200" height="200">
+
         <!-- Navigation bar -->
     <nav class="nav">
-        
-        <ul class="nav-links">
-            <a href="index.html" class="logo">
-                <img class="logo" src="Images/globe.png" alt="three of us logo with globe" width="50px" height="50px"></a>
+                <ul class="nav-links">
         <li class="nav-page"><a href="index.html">Home</a></li>
         <li class="nav-page"><a href="about.html">About</a></li>
         <li class="nav-page"><a href="profiles.html">Profiles</a></li>
@@ -32,19 +32,21 @@
       </ul>
     </nav>
 
-    <!--Using text element as a logo-->
-    <h1>the three of us</h1>
-
 </header>
 
 <!--Section contains...-->
 <main>
-  <img src="Images/ramen-7187810_1920.jpg" alt="busy street in Seoul">
+  <div class="flex-container">
+    <div class="flex-item"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div> 
+  <div class="flex-item1"><img src="Images/hug.png" alt="" width="300" height="300"></div>  
+  <div class="flex-item"><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>  
+    
+</div>
 </main>
 
 <!--Footer which will be the same on all pages, containing copywrite, social media links and a email sign up form -->
 <footer>
-    <p> Sign up today to keep up to date with the three of us!</p>
+    <p class="sign-up"> Sign up today to keep up to date with the three of us!</p>
     <div class="form">
         <form>
           <label for="fname">First Name</label>
