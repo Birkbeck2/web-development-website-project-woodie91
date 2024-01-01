@@ -5,13 +5,12 @@
     padding-left: 30px;
     padding-right: 10px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    
   }
 
   .nav-links {
     list-style: none;
-    align-items: center;
+    align-items: right;
     justify-content: center;
   }
   
