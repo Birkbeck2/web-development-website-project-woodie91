@@ -8,9 +8,13 @@
     
   }
 
+  /* can't gett his to centre but I think I like it on the left as it is in line with the logo and rest of page content */
+  label {
+    justify-content: center;
+  }
+
   .nav-links {
     list-style: none;
-    align-items: right;
     justify-content: center;
   }
   
@@ -35,6 +39,7 @@
 
 body {
     font-family: 'League Spartan', sans-serif;
+    padding: 10%;
   }
 
   p {
@@ -47,7 +52,6 @@ body {
   }
 
   .grid-item {
-    padding: 10%;
     display: block;
   }
  
