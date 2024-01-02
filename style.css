@@ -8,7 +8,7 @@
     
   }
 
-  /* can't gett his to centre but I think I like it on the left as it is in line with the logo and rest of page content */
+  /* can't get this to centre but I think I like it on the left as it is in line with the logo and rest of page content */
   label {
     justify-content: center;
   }
@@ -139,10 +139,5 @@ input[type=text], select, textarea {
   @media only screen and (max-width:600px) {
     .flex1 img{
       flex-direction: column;
-    }
-
-    /* struggling to get these images to not be blurry when changing viewport*/
-    .grid-container img{
-      grid-auto-columns: auto;
     }
   }
