@@ -144,6 +144,8 @@ input[type=text], select, textarea {
    /* to make the images responsive for different viewports */
   @media only screen and (max-width:600px) {
     .flex1 img{
+      /*at first I couldn't get the imageson the Asia page to be responsive but once I added width 100% it started working :)*/
+      width: 100%;
       flex-direction: column;
     }
 
