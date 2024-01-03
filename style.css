@@ -5,7 +5,13 @@
     padding-left: 30px;
     padding-right: 10px;
     display: flex;
-    
+  }
+
+  .nav2 ul {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 10px;
+    display: flex;
   }
 
   /* can't get this to centre but I think I like it on the left as it is in line with the logo and rest of page content */
@@ -140,4 +146,31 @@ input[type=text], select, textarea {
     .flex1 img{
       flex-direction: column;
     }
+
+    .flex-item2{
+      flex-basis: 100%;
+    }
+
+    .flex-item {
+      flex-basis: 100%;
+    }
+  
+    .flex-container{
+      width: 100%;
+      height: auto;
+    }
+
+    .grid-container {
+      grid-template-columns: auto;
+    }
+  
+    .grid-item {
+      grid-column: 1 / 1;
+    }
+
+    .nav2 ul {
+      width: 100%;
+      flex-direction: column;
+    }
+
   }
