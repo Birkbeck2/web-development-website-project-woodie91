@@ -3,7 +3,7 @@
   .nav ul {
     width: 100%;
     padding-left: 30px;
-    padding-right: 10px;
+    padding-right: 30%;
     display: flex;
   }
 
@@ -175,4 +175,12 @@ input[type=text], select, textarea {
       flex-direction: column;
     }
 
+  }
+
+  @media only screen and (max-width:1000px) {
+    .flex1 img{
+      /*ipad view*/
+      width: 100%;
+      flex-direction: column;
+    }
   }
