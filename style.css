@@ -1,5 +1,5 @@
   
-  /* styling for the navigation and unordered list elements to center them on the page and create space between links. nav-links removes the bullet point from the text within the list and places 10% padding between links. nav-page/a has .... logo has a flex display applied to it so that... */
+  /* styling for the navigation(s) and unordered list elements to center them on the page and create space between links.*/ 
   .nav ul {
     width: 100%;
     padding-left: 30px;
@@ -19,6 +19,7 @@
     justify-content: center;
   }
 
+  /* the following removes the bullet point from the text within the list and centers the content, add padding around each link so they have space between and around them and makes them black. Logo is to centre the picture under the nav. */
   .nav-links {
     list-style: none;
     justify-content: center;
@@ -36,12 +37,12 @@
     justify-content: center;
     
   }
-/* this element creates the border/seperators on my pages. I used it in a flex box so there is a line either side of the logo */
+/* this element creates the border/seperators on my pages. I used it in a flex box so there is a line either side of the logo, it turns into one line depending on the viewport */
   hr.line {
     border-top: 2px solid;
   }
 
-/* styling for main content on page, this places the items within this element in the .. of the page, this also defines the font used on the page */
+/* styling for main content on page, applies the font, padding so how far from the edge the content is*/
 
 body {
     font-family: 'League Spartan', sans-serif;
@@ -51,6 +52,7 @@ body {
   p {
     padding: 50px;
   }
+/* CSS for the grid to define how the items should display, 3 pictures in a block row */
 
   .grid-container {
     display: grid;
@@ -61,7 +63,7 @@ body {
     display: block;
   }
  
- /* the following has been used to ensure the images and pages are responsive for various screen displays */
+ /* the following has been used to ensure the images are responsive for various screen displays and will be displayed at 100% of the screen width */
 
   img {
     max-width: 100%;
@@ -82,7 +84,7 @@ body {
 }
 
 
-/* styling for form on contact page */
+/* styling for form on contact page, first is styling for the text boxes, second is for the button */
 
 input[type=text], select, textarea {
     width: 100%;
@@ -144,7 +146,7 @@ input[type=text], select, textarea {
    /* to make the images responsive for different viewports */
   @media only screen and (max-width:600px) {
     .flex1 img{
-      /*at first I couldn't get the imageson the Asia page to be responsive but once I added width 100% it started working :)*/
+      /*at first I couldn't get the images on the Asia page to be responsive but once I added width 100% it started working :)*/
       width: 100%;
       flex-direction: column;
     }
