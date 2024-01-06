@@ -52,6 +52,12 @@ body {
   p {
     padding: 50px;
   }
+
+  /* I've added this so that the page still looks the same but the screen reader will still be able tot find the h1 element and read out 'page under construction */
+  #semantic{
+    color: white;
+    font-size: x-small;
+  }
 /* CSS for the grid to define how the items should display, 3 pictures in a block row */
 
   .grid-container {
