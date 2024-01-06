@@ -53,11 +53,14 @@ body {
     padding: 50px;
   }
 
-  /* I've added this so that the page still looks the same but the screen reader will still be able tot find the h1 element and read out 'page under construction */
+  /* I've added this so that the page still looks the same but the screen reader will still be able tot find the h1 element and read out 'page under construction however this came up with an even worse WAVE report so I will keep the text as it is.*/
+
   #semantic{
-    color: white;
-    font-size: x-small;
+   /* color: white;*/
+    font-size:medium 
+    
   }
+
 /* CSS for the grid to define how the items should display, 3 pictures in a block row */
 
   .grid-container {
