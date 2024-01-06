@@ -57,8 +57,9 @@ body {
 
   #semantic{
    /* color: white;*/
-    font-size:medium 
-    
+    font-size:medium;
+    padding: 50px;
+        
   }
 
 /* CSS for the grid to define how the items should display, 3 pictures in a block row */
