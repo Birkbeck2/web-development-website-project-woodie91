@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font from Google-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap" rel="stylesheet">
+
+    <title>Portfolio - 6 images</title>
+</head>
+<body>
+
+  <header>
+    <!--image made  by me on Canva-->
+    <img id="logo" src="Images/logo-text.png" alt="text saying the three of us" width="200" height="200">
+
+      <!-- Navigation bar -->
+  <nav class="nav">
+              <ul class="nav-links">
+      <li class="nav-page"><a href="index.html">Home</a></li>
+      <li class="nav-page"><a href="soon.html">About</a></li>
+      <li class="nav-page"><a href="profiles.html">Profiles</a></li>
+      <li class="nav-page"><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+</header>
+
+
+    <!--Logo Flexbox-->
+    <main>
+        <div class="flex-container">
+          <div class="flex-item"><hr class="line"></div> 
+          <div class="flex-item1"><img src="Images/logo.png" alt="a blue and green globe with the website name, the three of us around the top" width="200" height="200"></div>  
+          <div class="flex-item"><hr class="line"></div>   
+        </div>
+
+<h1>Visual Design</h1>
+<p>Assessment one, 6 images.</p>
+
+<!--Gallery Flexbox, the flex1 so I can assign CSS styling (flex) to the section, in my stylesheet the img tag is also assigned so that I can manipulate the size using media query -->
+    <section class="flex1">
+      <p>Images before</p>
+        <img src="./before/alvan-nee-1VgfQdCuX-4-unsplash.jpg" alt="yellow bowl containing broth with potato snack" width="400" height="400">
+        <img src="./before/benjamin-lehman-k8xJOnA3zYM-unsplash.jpg" alt="bowl of ramen with boiled egg split in half" width="400" height="400">
+        <img src="./before/benjamin-lehman-qwIeh5M8bF8-unsplash.jpg" alt="variety of sushi pieces" width="400" height="400">
+        <img src="./before/charlesdeluvio-zqhe4qjVTJI-unsplash.jpg" alt="variety of sushi pieces" width="400" height="400">
+        <img src="./before/fabian-gieske-3nQhyFuwUkk-unsplash.jpg" alt="variety of sushi pieces" width="400" height="400">
+        <img src="./before/fabian-gieske-AXtlIC-eHjQ-unsplash.jpg" alt="variety of sushi pieces" width="400" height="400">
+      </section>
+    
+      <section class="flex1">
+        <p>Images after</p>
+          <img src="./svg/remove items.svg" alt="yellow bowl containing broth with potato snack" width="400" height="400">
+          <img src="./svg/shadow filter.svg" alt="bowl of ramen with boiled egg split in half" width="400" height="400">
+          <img src="./svg/colour change.svg" alt="variety of sushi pieces" width="400" height="400">
+          <img src="./svg/blur and polaroid.svg" alt="variety of sushi pieces" width="400" height="400">
+          <img src="./svg/background bone.svg" alt="variety of sushi pieces" width="400" height="400">
+          <img src="./svg/multiple.svg" alt="variety of sushi pieces" width="400" height="400">
+        </section>
+
+</main>
+
+    <!--Footer which will be the same on all pages, containing copywrite, social media links and a email sign up form -->
+    <footer>
+      <hr class="line">
+        <p class="sign-up"> Sign up today to keep up to date with the three of us!</p>
+        <div class="form">
+            <form>
+              <label for="fname">First Name</label>
+              <input type="text" id="fname">
+              <label for="email">Email address</label>
+              <input type="text" id="email">
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+          
+          <!--Social media icons which would link to social media pages-->
+          <div id="social">
+          <img src="Images/icon1.svg" alt="twitter logo">
+          <img src="Images/icon2.svg" alt="twitch logo">
+          <img src="Images/icon3.svg" alt="insta logo">
+          </div>
+    
+            
+          <p id="trademark">website made by woods91</p>
+    
+         
+    
+    </footer>
+
+
