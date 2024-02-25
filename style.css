@@ -49,6 +49,16 @@ body {
     
   }
 
+  #title {
+    color: #10714d;
+    padding-left: 600px;
+  }
+
+  #title2 {
+    color: #10714d;
+    padding-left: 550px;
+  }
+
   p {
     padding: 50px;
   }
