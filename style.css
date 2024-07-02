@@ -58,6 +58,10 @@ body {
     color: #10714d;
     padding-left: 550px;
   }
+  
+  #intro {
+    padding-left: 4rem;
+  }
 
   p {
     padding: 50px;
