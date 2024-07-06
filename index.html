@@ -1,0 +1,90 @@
+<!--This section defines the type of document being used (HTML), the language the page is written in and the meta elements make the page responsive in terms of different viewports. It is here that the CSS stylesheet is linked as well. If I had any JS this would be linked in a simular way here. -->
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font from Google Fonts, this is also linked in CSS so it applies to text in the body of the website-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap" rel="stylesheet">
+
+<!--Each pages title will have The Three of Us, plus which page you are on so the user can see this from the tab section on the browser-->
+    <title>The Three of Us - Home</title>
+</head>
+
+<!--Main body of page-->
+<body>
+    <header>
+      <!--image made by me on Canva-->
+      <img id="logo" src="Images/logo-text.png" alt="text saying the three of us" width="200" height="200">
+
+        <!-- Navigation bar -->
+    <nav class="nav">
+                <ul class="nav-links">
+        <li class="nav-page"><a href="index.html">Home</a></li>
+        <li class="nav-page"><a href="soon.html">About</a></li>
+        <li class="nav-page"><a href="profiles.html">Profiles</a></li>
+        <li class="nav-page"><a href="contact.html">Contact</a></li>
+        <li class="nav-page"><a href="portfolio.html">Portfolio</a></li>
+      </ul>
+    </nav>
+
+</header>
+
+<!--Section contains a flex and grid container so I could structure the webpage items. There are some information fictional reviews and infomrmation about the website-->
+<main>
+  <div class="flex-container">
+  <div class="flex-item"><hr class="line"></div> 
+  <div class="flex-item1"><img src="Images/logo.png" alt="a blue and green globe with the website name, the three of us around the top" width="200" height="200"></div>  
+  <div class="flex-item"><hr class="line"></div>   
+</div>
+
+<div class="grid-container">
+  <div class="grid-item"><h1> the three of us was created to provide answers and connect individuals from multi-cultural families who don't nessecarily have access to parts of their culture through break down in family ties. </h1></div> 
+  <div class="grid-item"><p></p></div>
+   <div class="grid-item"><p> 'I was able to learn traditional recipes, posted by amazing users from all over the world on the three us' - Haru. </p></div>   
+   <div class="grid-item"><p></p></div>
+   <div class="grid-item"><p></p></div>
+   <div class="grid-item"><p></p></div>
+  <div class="grid-item"><p> Whether you are a user or a contributor (or both), the three of us welcomes your stories and experiences to share and teach each of us looking for that missing puzzle piece. </p></div> 
+  <div class="grid-item"><p></p></div>
+  <div class="grid-item"><h2>'I connected with Saul through the three of us, he has been teaching me Spanish and I must say, it's much nicer to connect with a real person. No hate Duolingo!' - Jorge.</h2></div> 
+</div>
+
+</main>
+
+<!--Footer which will be the same on all pages, containing copywrite, social media links and a email sign up form -->
+<footer>
+  <hr class="line">
+    <p class="sign-up"> Sign up today to keep up to date with the three of us!</p>
+    <div class="form">
+        <form>
+          <label for="fname">First Name</label>
+          <input type="text" id="fname">
+          <label for="email">Email address</label>
+          <input type="text" id="email">
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+      
+      <!--Social media icons which would link to social media pages but as this don't exist, I have not linked them to any website-->
+      <div id="social">
+      <img src="Images/icon1.svg" alt="twitter logo">
+      <img src="Images/icon2.svg" alt="twitch logo">
+      <img src="Images/icon3.svg" alt="insta logo">
+      </div>
+
+        
+      <p id="trademark">website made by woods91</p>
+
+     
+
+</footer>
+
+    
+</body>
+</html>

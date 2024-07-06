@@ -1,0 +1,73 @@
+ <!--This section defines the type of document being used (HTML), the language the page is written in and the meta elements make the page responsive in terms of different viewports. It is here that the CSS stylesheet is linked as well. If I had any JS this would be linked in a simular way here. -->
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font from Google Fonts, this is also linked in CSS so it applies to text in the body of the website-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap" rel="stylesheet">
+
+    <title>The Three of Us - About</title>
+</head>
+<body>
+
+    <header>
+        <!--image made by me on Canva, width and height set so that it preloads on the page-->
+        <img id="logo" src="Images/logo-text.png" alt="text saying the three of us" width="200" height="200">
+  
+          <!-- Navigation bar, 3 classes so that different CCS styles can be apllied to each section such as the over all navigation, the links, and then the individual links -->
+      <nav class="nav">
+                  <ul class="nav-links">
+          <li class="nav-page"><a href="index.html">Home</a></li>
+          <li class="nav-page"><a href="soon.html">About</a></li>
+          <li class="nav-page"><a href="profiles.html">Profiles</a></li>
+          <li class="nav-page"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+  
+      <!--Flexbox which contains the logo with lines on either side as a border-->
+      <main>
+        <div class="flex-container">
+          <div class="flex-item"><hr class="line"></div> 
+          <div class="flex-item1"><img src="Images/logo.png" alt="a blue and green globe with the website name, the three of us around the top" width="200" height="200"></div>  
+          <div class="flex-item"><hr class="line"></div>   
+        </div>
+      
+  
+<p>the three of us was born ou of blabla bla</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</main>
+
+</header>
+
+<!--Footer which will be the same on all pages, containing copywrite, social media links and a email sign up form -->
+<footer>
+  <hr class="line">
+    <p class="sign-up"> Sign up today to keep up to date with the three of us!</p>
+    <div class="form">
+        <form>
+          <label for="fname">First Name</label>
+          <input type="text" id="fname">
+          <label for="email">Email address</label>
+          <input type="text" id="email">
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+      
+      <!--Social media icons which would link to social media pages-->
+      <div id="social">
+      <img src="Images/icon1.svg" alt="twitter logo">
+      <img src="Images/icon2.svg" alt="twitch logo">
+      <img src="Images/icon3.svg" alt="insta logo">
+      </div>
+
+        
+      <p id="trademark">website made by woods91</p>
+
+     
+
+</footer>
